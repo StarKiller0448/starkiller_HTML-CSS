@@ -10,13 +10,34 @@
     <body>
         <header>
             <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"></a>
-            <nav>
+            <nav id="nav-pc">
                 <a href="mission.html">MISSION</a>
                 <a href="product.html">PRODUCT</a>
                 <a href="index.html#aboutus">ABOUT US</a>
                 <a href="index.html#vision">VISION</a>
                 <a href="index.html#company">COMPANY</a>
                 <a href="index.html#contact">CONTACT</a>
+            </nav>
+            <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display='block'">
+            <nav id="nav-sp">
+                <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img
+                    src="images/logo-sp.png" alt="トップページに戻る"></a>
+                <a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a>
+                <a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+                <a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT
+                  US</a>
+                <a class="menu" href="index.html#vision"
+                  onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a>
+                <a class="menu" href="index.html#company"
+                  onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a>
+                <a class="menu" href="index.html#contact"
+                  onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+                <div id="sns">
+                  <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+                  <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+                  <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+                </div>
             </nav>
         </header>
         <main>
@@ -26,7 +47,7 @@
                         <h1>WORLD PEACE</h1>
                         <p>IT教育で世界平和を実現する</p>                        
                     </div>
-                    <img src="images/index/index-main.png" alt="PCの周りに集まる多国籍の仲間たち">[
+                    <img src="images/index/index-main.png" alt="PCの周りに集まる多国籍の仲間たち">
                 </section>
                 <section id="mission">
                     <h2 class="index-h2">MISSION</h2>
@@ -254,7 +275,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7759544852843!2d139.69400201553444!3d35.65789123885864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55ffeee63f%3A0x73330361de4fb84f!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yR4oiSMSBHIDRm!5e0!3m2!1sja!2sjp!4v1678321620195!5m2!1sja!2sjp"　style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
                 </section>
                 <section id="contact">
-                    <h2 class="index-h2"CONTACT></h2>
+                    <h2 class="index-h2">CONTACT</h2>
                     <h3>お問い合わせ</h3>
                     <form action="https://api.staticforms.xyz/submit" method="post">
                         <input type="text" name="honeypot" style="display:none">
