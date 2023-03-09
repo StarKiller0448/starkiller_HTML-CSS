@@ -8,11 +8,6 @@ p{
     font-size: 15px;
 }
 
-/*================
- PC用のスタイル 
-=================*/
- /* 横幅設定 */
-
  @media screen and (min-width: 768px) {
 
 #nav-sp,#menu-sp {
