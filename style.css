@@ -28,13 +28,15 @@ p{
  header{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
  }
 
  nav{
     text-align: right;
     font-size: 14px;
     padding-top: 15px;
-    position: fixed;
+
     z-index: 40;
  }
 
@@ -455,6 +457,12 @@ details {
         margin: 0;
       }
     
+      header{
+        position: fixed;
+        top: 0;
+        z-index: 40;
+      }
+
       #nav-pc {
         display: none;
       }
@@ -462,7 +470,6 @@ details {
       #menu-sp {
         float: right;
         padding: 0;
-        position: fixed;
       }
 
       #nav-sp {
@@ -474,7 +481,6 @@ details {
         width: 100%;
         display: none;
         z-index: 100;
-        position: fixed;
       }
       
       #close{
