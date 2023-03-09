@@ -31,12 +31,14 @@ p{
     position: fixed;
     top: 0;
     z-index: 40;
+    background-color: #fff;
+    width: 1160px;
  }
 
  nav{
     text-align: right;
     font-size: 14px;
-    padding-top: 15px;
+    padding: 15px 15px 0 0;
  }
 
  nav > a{
@@ -455,11 +457,13 @@ details {
         min-width: 375px;
         margin: 0;
       }
-    
+
       header{
         position: fixed;
         top: 0;
         z-index: 40;
+        background-color: #fff;
+        width: 100%;
       }
 
       #nav-pc {
@@ -473,7 +477,7 @@ details {
 
       #nav-sp {
         background-color: #2710d5;
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100%;
